@@ -1,10 +1,11 @@
 # Healthcare Premium Prediction App
 
-An end-to-end Machine Learning application that predicts health insurance premiums based on user demographics, medical history, and financial status. 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg.svg)](https://ml-healthcare-application.streamlit.app/)
 
-The project utilizes a **dual-model architecture**:
-* **Model Young:** Specifically trained for individuals aged 25 and under.
-* **Model Rest:** Optimized for individuals over the age of 25.
+An end-to-end Machine Learning application that predicts health insurance premiums based on user demographics, medical history, and financial status.
+
+## 🔗 Live Demo
+You can access the live application here: [https://ml-healthcare-application.streamlit.app/](https://ml-healthcare-application.streamlit.app/)
 
 ## 🚀 Features
 * **Dynamic Risk Scoring:** Implements a custom normalization logic for medical histories (e.g., combining risks for Diabetes and Heart Disease).
