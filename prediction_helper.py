@@ -1,10 +1,10 @@
 import pandas as pd
 from joblib import load
 
-model_rest = load("artifacts\model_rest.joblib")
-model_young = load("artifacts\model_young.joblib")
-scalar_rest = load("artifacts\scalar_rest.joblib")
-scalar_young = load("artifacts\scalar_young.joblib")
+model_rest = load("artifacts/model_rest.joblib")
+model_young = load("artifacts/model_young.joblib")
+scalar_rest = load("artifacts/scalar_rest.joblib")
+scalar_young = load("artifacts/scalar_young.joblib")
 
 def calculate_normalised_risk(medical_history):
     risk_scores = {
